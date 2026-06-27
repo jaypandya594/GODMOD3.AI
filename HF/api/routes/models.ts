@@ -47,7 +47,7 @@ const G0DM0D3_MODELS: ModelEntry[] = [
     model_count:
       ULTRAPLINIAN_MODELS.fast.length +
       ULTRAPLINIAN_MODELS.standard.length +
-      ULTRAPLINIAN_MODELS.full.length,
+      ULTRAPLINIAN_MODELS.full?.length||0,
   },
 ]
 
